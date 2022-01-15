@@ -12,21 +12,66 @@
 */
 
 /*Start your awesome styling here*/
+
+/* Change header and nav menu setup*/
+#sticky-header.clearfix {
+  background-color: rgba(235, 150, 250, 1);
+}
+#mega-menu-primary li a {
+  color: #fff !important;
+}
+
+.top-bar {
+  background: rgba(217, 22, 250, .9);
+}
+
+.top-bar .wrap {
+  margin-bottom: -10px;
+}
+
+.top-bar .wrap .menu-item a {
+  color: #fff !important;
+}
+
+#mega-menu-top-menu li a {
+  color: #fff !important;
+}
+
+#mega-menu-primary li a:hover, .top-bar .wrap .menu-item a:hover, #mega-menu-top-menu li a:hover {
+  color: #00AEEF !important;
+}
+
+/* Change footer setup*/
+/* Increase font of footer links and add padding and border bottom */
 #menu-user-navigation, #menu-quick-link {
   font-size: 15px;
-  
 }
 
 #menu-user-navigation li, #menu-quick-link li {
-  margin-bottom: 5px;
+  padding-top: 10px;
   border-bottom: 0.5px dashed #666;
 }
-
+/* Adjust Newsletter Submit Button*/
 .wp-block-tnp-minimal {
   padding: 0px !important;
 }
 
 .tnp-submit {
   font-size: 12px !important;
-  background: #00AEEF;
+}
+
+.site-footer .widget-wrap {
+  background: rgba(31, 31, 31, .8) !important;
+}
+
+.site-info {
+  background: rgba(31, 31, 31, 1);
+}
+
+.site-footer .wrap, .site-info .copyright, .site-info .copyright a, .site-footer .wrap h3 {
+  color: #fff;
+}
+
+.site-footer .wrap a {
+  color: #fff !important;
 }
