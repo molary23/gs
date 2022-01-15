@@ -1,0 +1,32 @@
+/*
+ Theme Name:   Shopping Cart Child Theme
+ Theme URI:    https://themefreesia.com/
+ Description:  Shopping Cart Child Theme
+ Author:       Hassan A. Adeola
+ Author URI:   https://www.github.com/molary23
+ Template:     shoppingcart
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  shoppingcart-child
+*/
+
+/*Start your awesome styling here*/
+#menu-user-navigation, #menu-quick-link {
+  font-size: 15px;
+  
+}
+
+#menu-user-navigation li, #menu-quick-link li {
+  margin-bottom: 5px;
+  border-bottom: 0.5px dashed #666;
+}
+
+.wp-block-tnp-minimal {
+  padding: 0px !important;
+}
+
+.tnp-submit {
+  font-size: 12px !important;
+  background: #00AEEF;
+}
